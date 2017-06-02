@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{99
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baibaomen.DevModel.Businsess", "Baibaomen.DevModel.Businsess\Baibaomen.DevModel.Businsess.csproj", "{0D6AC8C8-0AF3-4981-9E12-FF1085C1080E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiWeb", "ApiWeb", "{0C8C053A-5276-4568-B55C-15EC1BA995EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baibaomen.DevModel.ApiWeb", "Baibaomen.DevModel.ApiWeb\Baibaomen.DevModel.ApiWeb.csproj", "{5384E213-EEBD-4E80-85FE-75B11DEC4147}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{0D6AC8C8-0AF3-4981-9E12-FF1085C1080E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D6AC8C8-0AF3-4981-9E12-FF1085C1080E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D6AC8C8-0AF3-4981-9E12-FF1085C1080E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5384E213-EEBD-4E80-85FE-75B11DEC4147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5384E213-EEBD-4E80-85FE-75B11DEC4147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5384E213-EEBD-4E80-85FE-75B11DEC4147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5384E213-EEBD-4E80-85FE-75B11DEC4147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +56,6 @@ Global
 		{B8F690DA-2D27-4668-958C-BE04761DB213} = {C2CDE140-C90F-4416-8A81-ACD4D5B12B5C}
 		{CCCDA1FB-F3A8-4B16-ABC8-C59A51EC7EBC} = {C2CDE140-C90F-4416-8A81-ACD4D5B12B5C}
 		{0D6AC8C8-0AF3-4981-9E12-FF1085C1080E} = {99FE2BBF-826E-42BB-8865-1C79B359CE58}
+		{5384E213-EEBD-4E80-85FE-75B11DEC4147} = {0C8C053A-5276-4568-B55C-15EC1BA995EC}
 	EndGlobalSection
 EndGlobal
