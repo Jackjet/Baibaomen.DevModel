@@ -133,6 +133,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Baibaomen.CA.mdf" />
+    <Content Include="App_Data\Baibaomen.CA_log.ldf">
+      <DependentUpon>Baibaomen.CA.mdf</DependentUpon>
+    </Content>
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <EmbeddedResource Include="IdSvr\idsrv3test.pfx" />
