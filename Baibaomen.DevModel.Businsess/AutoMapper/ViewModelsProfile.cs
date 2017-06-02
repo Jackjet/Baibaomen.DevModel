@@ -13,10 +13,7 @@ namespace Baibaomen.DevModel.Business.AutoMapper
     /// </summary>
     public class ViewModelsProfile:Profile
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        protected override void Configure()
+        public ViewModelsProfile():base()
         {
             CreateMap<Property, PropertyViewModel>();
             CreateMap<PropertyCreateModel, Property>();
