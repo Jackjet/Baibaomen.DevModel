@@ -44,7 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Exceptions\SimpleBadRequestException.cs" />
     <Compile Include="Exceptions\SimpleUnauthorizedException.cs" />
     <Compile Include="Helpers\EnumHelper.cs" />
