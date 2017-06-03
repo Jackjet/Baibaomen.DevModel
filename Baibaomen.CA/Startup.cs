@@ -98,11 +98,11 @@ namespace Baibaomen.CA
 
         public void ConfigureIdentityServer(IAppBuilder app)
         {
-            LogProvider.SetCurrentLogProvider(new DiagnosticsTraceLogProvider());
-            Log.Logger = new LoggerConfiguration()
-               .MinimumLevel.Debug()
-               .WriteTo.Trace()
-               .CreateLogger();
+            //LogProvider.SetCurrentLogProvider(new DiagnosticsTraceLogProvider());
+            //Log.Logger = new LoggerConfiguration()
+            //   .MinimumLevel.Debug()
+            //   .WriteTo.Trace()
+            //   .CreateLogger();
 
             app.Map("/admin", adminApp =>
             {

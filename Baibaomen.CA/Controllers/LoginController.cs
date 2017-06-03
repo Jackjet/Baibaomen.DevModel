@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.Http;
 
 namespace Baibaomen.CA.Controllers
@@ -27,10 +28,10 @@ namespace Baibaomen.CA.Controllers
         /// <returns></returns>
         [Route("")]
         [HttpPost]
-        public IHttpActionResult Login(LoginView loginView)
+        public async Task<IHttpActionResult> Login(LoginView loginView)
         {
 
-            var resp = GetUserToken(loginView.Account, loginView.Password);
+            var resp = await GetUserTokenAsync(loginView.Account, loginView.Password);
             return Ok(new { AccessToken = resp.AccessToken });
         }
 
@@ -40,14 +41,14 @@ namespace Baibaomen.CA.Controllers
 
         //}
 
-        TokenResponse GetUserToken(string account, string password)
+        async Task<TokenResponse> GetUserTokenAsync(string account, string password)
         {
             var client = new TokenClient(
                 CAAddress + "connect/token",
                 CAClientId,
                 CAClientSecret);
 
-            return client.RequestResourceOwnerPasswordAsync(account, password, CAClientScopes).Result;
+            return await client.RequestResourceOwnerPasswordAsync(account, password, CAClientScopes);
         }
     }
 }
