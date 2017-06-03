@@ -22,7 +22,7 @@ using System.Security.Claims;
 using System.Web;
 using IdSvr3 = IdentityServer3.Core;
 
-namespace WebHost.AspId
+namespace Baibaomen.CA.AspId
 {
     public class User : IdentityUser
     {

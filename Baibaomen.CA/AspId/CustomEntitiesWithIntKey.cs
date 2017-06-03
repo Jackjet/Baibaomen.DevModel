@@ -21,7 +21,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace WebHost.AspId
+namespace Baibaomen.CA.AspId
 {
     public class CustomUser : IdentityUser<int, CustomUserLogin, CustomUserRole, CustomUserClaim> { }
     public class CustomUserLogin : IdentityUserLogin<int> { }

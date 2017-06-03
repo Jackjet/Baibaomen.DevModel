@@ -15,7 +15,7 @@
  */
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
-using WebHost.AspId;
+using Baibaomen.CA.AspId;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +24,7 @@ using IdentityManager;
 using IdentityManager.AspNetIdentity;
 using IdentityManager.Configuration;
 
-namespace WebHost.IdMgr
+namespace Baibaomen.CA.IdMgr
 {
     public static class SimpleIdentityManagerServiceExtensions
     {

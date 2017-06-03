@@ -1,5 +1,5 @@
-﻿using WebHost.AspId;
-using WebHost.IdSvr;
+﻿using Baibaomen.CA.AspId;
+using Baibaomen.CA.IdSvr;
 /*
  * Copyright 2014 Dominick Baier, Brock Allen
  *
@@ -27,7 +27,7 @@ using IdentityServer3.Core.Services.InMemory;
 using IdentityServer3.Core.Services.Default;
 using IdentityServer3.Host.Config;
 
-namespace WebHost.IdSvr
+namespace Baibaomen.CA.IdSvr
 {
     class Factory
     {

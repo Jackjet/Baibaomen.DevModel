@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-using WebHost.AspId;
+using Baibaomen.CA.AspId;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +24,7 @@ using IdentityServer3.AspNetIdentity;
 using IdentityServer3.Core.Configuration;
 using IdentityServer3.Core.Services;
 
-namespace WebHost.IdSvr
+namespace Baibaomen.CA.IdSvr
 {
     public static class UserServiceExtensions
     {
